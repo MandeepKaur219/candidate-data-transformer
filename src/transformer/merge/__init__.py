@@ -1,0 +1,1 @@
+"""Merge stage: clusters and merges duplicate candidate records."""

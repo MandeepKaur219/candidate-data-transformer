@@ -1,0 +1,43 @@
+[
+  {
+    "candidate": { "full_name": "Jane Doe" },
+    "contact": { "email": "JANE.DOE@example.com", "phone": "+14155550182" },
+    "location": { "city": "San Francisco", "region": "CA", "country": "US" },
+    "links": { "linkedin": "linkedin.com/in/janedoe", "github": "github.com/janedoe" },
+    "headline": "Staff Backend Engineer",
+    "years_experience": 7,
+    "skills": ["Python", "k8s", "postgres", "Go"],
+    "work_history": [
+      {
+        "company": "Globex Inc",
+        "title": "Senior Backend Engineer",
+        "start_date": "2021-03",
+        "end_date": "Present",
+        "description": "Led the payments platform rewrite."
+      },
+      {
+        "company": "Initrode",
+        "position": "Backend Engineer",
+        "start": "2018-06",
+        "end": "2021-02"
+      }
+    ],
+    "education": [
+      { "institution": "UC Berkeley", "degree": "B.S.", "field": "Computer Science", "year": "2017" }
+    ]
+  },
+  {
+    "candidate": { "full_name": "Arjun Mehta" },
+    "contact": { "email": "arjun.mehta@example.com" },
+    "headline": "Data Scientist",
+    "skills": ["python", "ml", "sql"],
+    "years_experience": "4"
+  },
+  {
+    "candidate": { "full_name": "Wei Lin" },
+    "contact": { "email": "wei.lin@example.com", "phone": "415-555-7720" },
+    "headline": "Frontend Engineer",
+    "skills": ["reactjs", "typescript"],
+    "work_history": []
+  }
+]

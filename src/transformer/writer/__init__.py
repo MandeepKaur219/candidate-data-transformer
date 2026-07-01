@@ -1,0 +1,1 @@
+"""Writer stage: serializes projected profiles to disk."""

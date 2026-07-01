@@ -1,0 +1,1 @@
+"""Validator stage: checks projected output against the requested schema."""

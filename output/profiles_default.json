@@ -1,0 +1,483 @@
+[
+  {
+    "candidate_id": "cand_3816044966f2",
+    "full_name": "Priya Shah",
+    "emails": [
+      "priya.shah@example.com"
+    ],
+    "phones": [],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Product Manager",
+    "years_experience": null,
+    "skills": [],
+    "experience": [
+      {
+        "company": "Initech",
+        "title": null,
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "overall_confidence": 0.418,
+    "provenance": [
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "direct_field"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "direct_field"
+      },
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "direct_field"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "direct_field"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_50d95740cae6",
+    "full_name": "Arjun Mehta",
+    "emails": [
+      "arjun.mehta@example.com"
+    ],
+    "phones": [
+      "+14155559931"
+    ],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Data Scientist",
+    "years_experience": 4.0,
+    "skills": [
+      {
+        "name": "Machine Learning",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "Python",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "SQL",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      }
+    ],
+    "experience": [],
+    "education": [],
+    "overall_confidence": 0.5453,
+    "provenance": [
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "direct_field"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "years_experience",
+        "source": "ats_json",
+        "method": "direct_field"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_516810dc8b00",
+    "full_name": "Wei Lin",
+    "emails": [
+      "wei.lin@example.com"
+    ],
+    "phones": [
+      "+14155557720"
+    ],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Frontend Engineer",
+    "years_experience": null,
+    "skills": [
+      {
+        "name": "React",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      }
+    ],
+    "experience": [],
+    "education": [],
+    "overall_confidence": 0.48,
+    "provenance": [
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "phones",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "direct_field"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_57619323a723",
+    "full_name": "Jane Doe",
+    "emails": [
+      "jane.doe@example.com"
+    ],
+    "phones": [
+      "+14155550182"
+    ],
+    "location": {
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "US"
+    },
+    "links": {
+      "linkedin": "linkedin.com/in/janedoe",
+      "github": "github.com/janedoe",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Staff Backend Engineer",
+    "years_experience": 7.0,
+    "skills": [
+      {
+        "name": "AWS",
+        "confidence": 0.55,
+        "sources": [
+          "resume_pdf"
+        ]
+      },
+      {
+        "name": "Docker",
+        "confidence": 0.55,
+        "sources": [
+          "resume_pdf"
+        ]
+      },
+      {
+        "name": "Go",
+        "confidence": 0.55,
+        "sources": [
+          "resume_pdf"
+        ]
+      },
+      {
+        "name": "Kubernetes",
+        "confidence": 0.55,
+        "sources": [
+          "resume_pdf"
+        ]
+      },
+      {
+        "name": "PostgreSQL",
+        "confidence": 0.55,
+        "sources": [
+          "resume_pdf"
+        ]
+      },
+      {
+        "name": "Python",
+        "confidence": 0.55,
+        "sources": [
+          "resume_pdf"
+        ]
+      },
+      {
+        "name": "REST APIs",
+        "confidence": 0.55,
+        "sources": [
+          "resume_pdf"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Globex Inc",
+        "title": "Senior Backend Engineer",
+        "start": "2021-03",
+        "end": null,
+        "summary": "Led the payments platform rewrite."
+      },
+      {
+        "company": "Globex Inc",
+        "title": null,
+        "start": null,
+        "end": null,
+        "summary": null
+      },
+      {
+        "company": "Globex working on the payments platform",
+        "title": null,
+        "start": null,
+        "end": null,
+        "summary": null
+      },
+      {
+        "company": "Initrode",
+        "title": "Backend Engineer",
+        "start": "2018-06",
+        "end": "2021-02",
+        "summary": null
+      },
+      {
+        "company": null,
+        "title": null,
+        "start": null,
+        "end": null,
+        "summary": "Globex Inc - Senior Backend Engineer (Mar 2021 - Present) Led the payments platform rewrite. Initrode - Backend Engineer (Jun 2018 - Feb 2021)"
+      }
+    ],
+    "education": [
+      {
+        "institution": "UC Berkeley",
+        "degree": "B.S.",
+        "field": "Computer Science",
+        "end_year": 2017
+      }
+    ],
+    "overall_confidence": 0.7104,
+    "provenance": [
+      {
+        "field": "education",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "emails",
+        "source": "resume_pdf",
+        "method": "regex_extraction"
+      },
+      {
+        "field": "experience",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "experience",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "direct_field"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_notes",
+        "method": "heuristic_parse"
+      },
+      {
+        "field": "experience",
+        "source": "resume_pdf",
+        "method": "heuristic_parse"
+      },
+      {
+        "field": "full_name",
+        "source": "resume_pdf",
+        "method": "heuristic_parse"
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "links_github",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "links_linkedin",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "location_city",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "location_country",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "location_region",
+        "source": "ats_json",
+        "method": "direct_field"
+      },
+      {
+        "field": "phones",
+        "source": "resume_pdf",
+        "method": "regex_extraction"
+      },
+      {
+        "field": "skills",
+        "source": "resume_pdf",
+        "method": "heuristic_parse"
+      },
+      {
+        "field": "skills",
+        "source": "resume_pdf",
+        "method": "heuristic_parse"
+      },
+      {
+        "field": "skills",
+        "source": "resume_pdf",
+        "method": "heuristic_parse"
+      },
+      {
+        "field": "skills",
+        "source": "resume_pdf",
+        "method": "heuristic_parse"
+      },
+      {
+        "field": "skills",
+        "source": "resume_pdf",
+        "method": "heuristic_parse"
+      },
+      {
+        "field": "skills",
+        "source": "resume_pdf",
+        "method": "heuristic_parse"
+      },
+      {
+        "field": "skills",
+        "source": "resume_pdf",
+        "method": "heuristic_parse"
+      },
+      {
+        "field": "years_experience",
+        "source": "resume_pdf",
+        "method": "regex_extraction"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_da39a3ee5e6b",
+    "full_name": null,
+    "emails": [],
+    "phones": [],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "overall_confidence": 0.0,
+    "provenance": []
+  }
+]

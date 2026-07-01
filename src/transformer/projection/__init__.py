@@ -1,0 +1,1 @@
+"""Projector stage: shapes canonical records into requested output JSON."""

@@ -1,0 +1,1 @@
+"""Confidence stage: scores merged candidate records."""

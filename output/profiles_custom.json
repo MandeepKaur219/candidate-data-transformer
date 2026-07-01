@@ -1,0 +1,43 @@
+[
+  {
+    "full_name": "Priya Shah",
+    "primary_email": "priya.shah@example.com",
+    "overall_confidence": 0.418
+  },
+  {
+    "full_name": "Arjun Mehta",
+    "primary_email": "arjun.mehta@example.com",
+    "phone": "+14155559931",
+    "skills": [
+      "Machine Learning",
+      "Python",
+      "SQL"
+    ],
+    "overall_confidence": 0.5453
+  },
+  {
+    "full_name": "Wei Lin",
+    "primary_email": "wei.lin@example.com",
+    "phone": "+14155557720",
+    "skills": [
+      "React",
+      "TypeScript"
+    ],
+    "overall_confidence": 0.48
+  },
+  {
+    "full_name": "Jane Doe",
+    "primary_email": "jane.doe@example.com",
+    "phone": "+14155550182",
+    "skills": [
+      "AWS",
+      "Docker",
+      "Go",
+      "Kubernetes",
+      "PostgreSQL",
+      "Python",
+      "REST APIs"
+    ],
+    "overall_confidence": 0.7104
+  }
+]

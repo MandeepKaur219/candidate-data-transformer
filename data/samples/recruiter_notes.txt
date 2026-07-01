@@ -1,0 +1,8 @@
+Candidate: Jane Doe
+
+Spoke with Jane Doe (jane.doe@example.com, 415-555-0182) about the Staff
+Backend role. Very strong in distributed systems, Python, and Kubernetes,
+~6 years experience. Currently at Globex working on the payments platform.
+She mentioned she's also comfortable with JS for internal tooling. Seemed
+enthusiastic about the team but wants to know more about on-call rotation
+before moving forward.

@@ -1,0 +1,1 @@
+"""Extract stage: reads raw source payloads from disk."""

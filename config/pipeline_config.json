@@ -1,0 +1,52 @@
+{
+  "source_priority": ["resume_pdf", "ats_json", "recruiter_csv", "recruiter_notes"],
+  "field_maps": {
+    "recruiter_csv": {
+      "name": "full_name",
+      "email": "emails",
+      "phone": "phones",
+      "title": "headline",
+      "current_company": "experience_company_hint"
+    },
+    "ats_json": {
+      "candidate.full_name": "full_name",
+      "candidate.name": "full_name",
+      "name": "full_name",
+      "contact.email": "emails",
+      "contact.primary_email": "emails",
+      "email": "emails",
+      "contact.phone": "phones",
+      "phone": "phones",
+      "location.city": "location_city",
+      "location.region": "location_region",
+      "location.country": "location_country",
+      "links.linkedin": "links_linkedin",
+      "links.github": "links_github",
+      "links.portfolio": "links_portfolio",
+      "headline": "headline",
+      "title": "headline",
+      "years_experience": "years_experience",
+      "skills": "skills",
+      "work_history": "experience",
+      "experience": "experience",
+      "education": "education"
+    },
+    "resume_pdf": {
+      "full_name": "full_name",
+      "email": "emails",
+      "phone": "phones",
+      "years_experience": "years_experience",
+      "skills": "skills",
+      "experience_text": "experience_text",
+      "education_text": "education_text"
+    },
+    "recruiter_notes": {
+      "full_name": "full_name",
+      "email": "emails",
+      "phone": "phones",
+      "current_company": "experience_company_hint",
+      "years_experience": "years_experience",
+      "notes_summary": "headline"
+    }
+  }
+}

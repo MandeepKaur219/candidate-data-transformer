@@ -1,0 +1,1 @@
+"""Map stage: renames source-specific field names to canonical names."""

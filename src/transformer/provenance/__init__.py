@@ -1,0 +1,1 @@
+"""Provenance stage: flattens per-field provenance for output."""

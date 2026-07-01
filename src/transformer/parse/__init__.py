@@ -1,0 +1,1 @@
+"""Parse stage: turns raw payloads into source-named ParsedValue dicts."""

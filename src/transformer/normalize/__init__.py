@@ -1,0 +1,1 @@
+"""Normalize stage: cleans values and builds canonical CandidateRecords."""

@@ -1,0 +1,5 @@
+name,email,phone,current_company,title
+Jane Doe,jane.doe@example.com,(415) 555-0182,Globex Inc,Senior Backend Engineer
+Arjun Mehta,arjun.mehta@example.com,415-555-9931,,Data Scientist
+,bad-row-no-name@,,,
+Priya Shah,priya.shah@example.com,,Initech,Product Manager
