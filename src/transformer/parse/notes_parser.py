@@ -16,12 +16,15 @@ from transformer.parse.base import ParsedValue, Parser
 _EMAIL_RE = re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+")
 _PHONE_RE = re.compile(r"(\+?\d[\d().\s-]{7,}\d)")
 _NAME_RE = re.compile(
-    r"(?:Candidate|Spoke with|Re|Regarding)\s*[:\-]?\s*([A-Z][a-zA-Z'-]+(?:\s+[A-Z][a-zA-Z'-]+)+)"
+    # r"(?:Candidate|Spoke with|Re|Regarding)\s*[:\-]?\s*([A-Z][a-zA-Z'-]+(?:\s+[A-Z][a-zA-Z'-]+)+)"
+    r"(?:Candidate|Spoke with|Re|Regarding)\s*[:\-]?\s*([A-Z][a-zA-Z'-]+(?:[ \t]+[A-Z][a-zA-Z'-]+)+)"
 )
+
 _COMPANY_RE = re.compile(
-    r"(?:currently at|works at|employed at)\s+([A-Z][\w&.,'\- ]+?)(?:[.,;\n]|$)",
-    re.IGNORECASE,
+    r"(?:(?i:currently at|works at|employed at))\s+"
+    r"([A-Z][\w&.'-]*(?:\s+[A-Z][\w&.'-]*)*)"
 )
+
 _YEARS_RE = re.compile(r"(\d+(?:\.\d+)?)\s*\+?\s*(?:years|yrs?)\b", re.IGNORECASE)
 
 _REGEX_EXTRACTION_CONFIDENCE = 0.65

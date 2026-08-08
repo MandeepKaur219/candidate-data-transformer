@@ -85,6 +85,7 @@ class TestPipelineDefaultSchema:
             ),
         )
         rec = CandidateRecord(source="recruiter_csv")
+        rec.candidate_id = "test-candidate-001"
         rec.full_name = fv("full_name", "Jane Doe")
         rec.emails = [fv("emails", "jane@example.com")]
 
